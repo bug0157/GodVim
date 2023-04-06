@@ -1,2 +1,3 @@
-require("config.options")
-return {}
+return {
+  { "folke/lazy.nvim" }
+}
