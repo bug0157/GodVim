@@ -1,5 +1,4 @@
 local function map(mode, lhs, rhs, opts)
-  local keys = require("lazy.core.handler").handlers.keys
   if opts.remap and not vim.g.vscode then
     opts.remap = nil
   end
